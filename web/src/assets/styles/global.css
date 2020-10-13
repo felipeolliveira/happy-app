@@ -1,0 +1,26 @@
+:root {
+  --white-clean: #fff;
+  --white-grey: #ebf2f5;
+  --yellow: #ffd666;
+  --light-blue: #96feff;
+  --blue: #15c3d6;
+  --blue-hover: #17d6eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white-clean);
+  background-color: var(--white-grey);
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 18px Nunito, sans-serif;
+}
